@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">    <!-- Esto lo que hace es darle el idioma en ESPANOL al documento -->
+<head>
+    <meta charset="UTF-8"> <!-- El conjunto de caracteres que queremos usar, este es el estandar-->
+    <meta name="viewport" content="width-device-width, initial-scale=1.0"> <!-- Para que se adapte la escala al dispositivo-->
+    <title>Xenoheart Machina</title>
+    <style>
+        html, body{
+            margin: 0;
+            width: 100%;
+            height: 100%;
+            background: #1a0c38;
+
+        }
+
+        #game-container{ 
+            width: 100%;
+            height: 100%;
+        }    
+    </style>
+
+    <body>
+        <div id="game-container"></div>
+        <script src="./phaser.min.js"></script>
+        <script type="module" src="./src/main.js"></script> <!-- Trabaja en conjunto con otros scripts--> 
+    </body>
+
+</head> <!-- Arriba no puedo poner comentario, pero el Style es para poder darle un estilo a la pagina, el game-container sirve para el propio Game, las escalas son para que se adapte al dispositivo-->
+</html>
